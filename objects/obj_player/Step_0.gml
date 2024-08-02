@@ -2,8 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 14FA888E
 /// @DnDArgument : "expr" "keyboard_check(vk_right) - keyboard_check(vk_left)"
+/// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "move_x"
-move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
+move_x += keyboard_check(vk_right) - keyboard_check(vk_left);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
